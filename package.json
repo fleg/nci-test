@@ -13,7 +13,7 @@
     "rtsp-parser.js"
   ],
   "scripts": {
-    "test": "mocha test/ --reporter spec && cat note.xml",
+    "test": "mocha test/ --reporter spec && cat note.xml && cat note-inline.xml",
     "coverage": "istanbul cover _mocha -- --reporter spec --timeout 10000"
   },
   "keywords": [
