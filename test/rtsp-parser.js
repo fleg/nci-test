@@ -9,7 +9,7 @@ describe('RTSPParser test', function() {
 		it('create RTSPParser with bad type', function() {
 			expect(function() {
 				new RTSPParser();
-			}).to.throwException(/bad typess/);
+			}).to.throwException(/bad types/);
 		});
 
 		it('call RTSPParser without new', function() {
