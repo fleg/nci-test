@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "test": "mocha test/ --reporter spec && cat note.xml && cat note-inline.xml",
-    "coverage": "istanbul cover _mocha -- --reporter spec --timeout 10000"
+    "coverage": "istanbul cover _mocha -- --reporter spec --timeout 10000 --colors"
   },
   "keywords": [
     "rtsp",
