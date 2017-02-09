@@ -1,5 +1,7 @@
 'use strict';
 
+console.log(JSON.stringify(process.env, null, 2));
+
 var expect = require('expect.js'),
 	RTSPParser = require('../rtsp-parser').RTSPParser,
 	_ = require('underscore');
